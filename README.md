@@ -42,7 +42,7 @@ R13	Data Ownership 	The DT must implement measures to protect data ownerships ri
 Starting from previous results, we enhanced the reference DT architecture as follows:
 
 
-![The Reference DT Architecture](https://github.com/CN1-HPC-UNINA/DTReferenceArchitecture/arch.png)
+![The Reference DT Architecture](https://github.com/CN1-HPC-UNINA/DTReferenceArchitecture/blob/main/arch.png)
 
 
 The Physical Subsystem is responsible for handling data collection from multiple and heterogeneous data sources related to the physical system to be digital replicated. A Third Party data providers element has been added to model the presence of possible additional data sources that are not part of the Physical Twin, but provide required data useful for DT services. 
