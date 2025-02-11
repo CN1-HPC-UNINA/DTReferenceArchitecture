@@ -45,17 +45,18 @@ Starting from previous results, we enhanced the reference DT architecture as fol
 ![The Reference DT Architecture](https://github.com/CN1-HPC-UNINA/DTReferenceArchitecture/blob/main/arch.png)
 
 
-The Physical Subsystem is responsible for handling data collection from multiple and heterogeneous data sources related to the physical system to be digital replicated. A Third Party data providers element has been added to model the presence of possible additional data sources that are not part of the Physical Twin, but provide required data useful for DT services. 
+The **Physical Subsystem** is responsible for handling data collection from multiple and heterogeneous data sources related to the physical system to be digital replicated. A Third Party data providers element has been added to model the presence of possible additional data sources that are not part of the Physical Twin, but provide required data useful for DT services. 
 
-The Data Ingestion Subsystem is responsible for raw data ingestion and homogenization.
+The **Data Ingestion Subsystem** is responsible for raw data ingestion and homogenization.
 
-The Modeling Subsystem is in charge of the digital modeling functionalities. This is important to realize a proper Digital Twin system. 
+The **Modeling Subsystem** is in charge of the digital modeling functionalities. This is important to realize a proper Digital Twin system. 
 
-The Processing Subsystem deals with big data or low latency data processing, distinguishing the well-known batch and stream processing. 
+The **Processing Subsystem** deals with big data or low latency data processing, distinguishing the well-known batch and stream processing. 
 
-The Visualization Subsystem allows to present data and model in dashboards or through augmented reality to external operators/stakeholders.
+The **Visualization Subsystem** allows to present data and model in dashboards or through augmented reality to external operators/stakeholders.
 
-Finally the Service Subsystem is responsible for implementing all the services built upon the modeling and data processing subsystems. These services can be exposed by means of APIs (e.g., REST). 
+Finally the **Service Subsystem** is responsible for implementing all the services built upon the modeling and data processing subsystems. These services can be exposed by means of APIs (e.g., REST). 
 
-Moreover, we added three vertical layers to model functionality that will be of interest for all the vertical ones. Firstly, the Communication Subsystem involve lightweight and not brokers to allows the communication among multiple data producers and multiple data consumers, e.g., the Physical Twin with its respective Digital Twin and/or a Digital Twin of a physical system with the virtual replica of another physical twin. A Security Subsystem to prevent the exploitation of system’s vulnerabilities has been added. As discussed in the previous deliverable, the Storage Subsystem (R10) is responsible for preserving data circulating in a Digital Twin environment, such as real world data, domain expert knowledge, outcomes from models simulation or service execution.
-Finally an Interoperability and Sovereignty Management Subsystem (R9, R11, R13) has been added to satisfy requirements related to data sovereignty and interoperability, together with the Security Subsystem (R12).
+Moreover, we added three vertical layers to model functionality that will be of interest for all the vertical ones. Firstly, the **Communication Subsystem** involve lightweight and not brokers to allows the communication among multiple data producers and multiple data consumers, e.g., the Physical Twin with its respective Digital Twin and/or a Digital Twin of a physical system with the virtual replica of another physical twin. A **Security Subsystem** to prevent the exploitation of system’s vulnerabilities has been added. The **Storage Subsystem** (R10) is responsible for preserving data circulating in a Digital Twin environment, such as real world data, domain expert knowledge, outcomes from models simulation or service execution.
+
+Finally an **Interoperability and Sovereignty Management Subsystem** (R9, R11, R13) has been added to satisfy requirements related to data sovereignty and interoperability, together with the Security Subsystem (R12).
